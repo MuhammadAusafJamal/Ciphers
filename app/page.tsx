@@ -46,7 +46,18 @@ export default function Home() {
                 clipRule="evenodd"
               />
             </svg>
-            <p>Created with Next.js, Tailwind CSS, and mathematical precision</p>
+            <p>
+              Created with Next.js, Tailwind CSS, and mathematical precision.
+              By{' '}
+              <a
+                className="hover:underline text-white"
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://github.com/MuhammadAusafJamal"
+              >
+                Muhammad Ausaf Jamal
+              </a>.
+            </p>
           </div>
         </footer>
       </div>
