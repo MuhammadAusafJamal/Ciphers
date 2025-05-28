@@ -161,7 +161,7 @@ export default function VigenereCipher() {
                 className="grid grid-cols-2 gap-2"
               >
                 <ToggleGroupItem
-                  onClick={encrypt}
+                  onClick={reset}
                   value="encrypt"
                   className="data-[state=on]:bg-gradient-to-r data-[state=on]:from-teal-500 data-[state=on]:to-teal-600 data-[state=on]:text-white"
                 >
@@ -169,7 +169,7 @@ export default function VigenereCipher() {
                   Encrypt
                 </ToggleGroupItem>
                 <ToggleGroupItem
-                  onClick={decrypt}
+                  onClick={reset}
                   value="decrypt"
                   className="data-[state=on]:bg-gradient-to-r data-[state=on]:from-purple-500 data-[state=on]:to-purple-600 data-[state=on]:text-white"
                 >
