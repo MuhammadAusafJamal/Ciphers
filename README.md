@@ -9,8 +9,8 @@ This project is part of my **7th Semester Cryptography Course Laboratory Work**,
 **Course:** Cryptography (7th Semester)  
 **Type:** Laboratory Assignment  
 **Objective:** Understanding and implementing classical cipher algorithms with interactive visualizations  
-**Institution:** [Your University Name]  
-**Academic Year:** [Year]
+**Institution:** University of Karachi 
+**Academic Year:** 4th
 
 This lab project demonstrates the practical application of theoretical cryptographic concepts learned in class, bridging the gap between mathematical foundations and real-world implementations.
 
@@ -413,30 +413,6 @@ We welcome contributions! Please follow these steps:
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- **Course Instructor** - For guidance on cryptographic concepts
-- **Classmates** - For collaborative learning and feedback
-- **Historical Cryptographers** - For developing these fascinating ciphers
-- **shadcn/ui** - For the beautiful component library
-- **Vercel** - For the excellent deployment platform
-- **Next.js Team** - For the amazing React framework
-
-## 📞 Support & Contact
-
-**Academic Inquiries:**
-- Course: Cryptography (7th Semester)
-- Student: [Your Name]
-- Roll Number: [Your Roll Number]
-- Email: [Your Email]
-
-**Technical Support:**
-1. **Check the Issues** - See if your problem is already reported
-2. **Create an Issue** - Provide detailed information about the problem
-3. **Join Discussions** - Share ideas and get help from the community
-
----
 
 **🎓 Built as part of 7th Semester Cryptography Course Laboratory Work**
 
