@@ -16,19 +16,6 @@ export default function VigenereCipher() {
   const [steps, setSteps] = useState<string[]>([])
   const [mode, setMode] = useState<"encrypt" | "decrypt">("encrypt")
 
-  // useEffect(() => {
-  //   if (inputText && key) {
-  //     if (mode === "encrypt") {
-  //       encrypt()
-  //     } else {
-  //       decrypt()
-  //     }
-  //   } else {
-  //     setOutputText("")
-  //     setSteps([])
-  //   }
-  // }, [inputText, key, mode])
-
   const encrypt = () => {
     if (!inputText || !key) {
       setOutputText("")

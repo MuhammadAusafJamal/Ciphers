@@ -9,6 +9,7 @@ import RailFenceCipher from "@/components/ciphers/rail-fence-cipher"
 import ColumnarCipher from "@/components/ciphers/columnar-cipher"
 import HillCipher from "@/components/ciphers/hill-cipher"
 import PlayfairCipher from "@/components/ciphers/playfair-cipher"
+import OneTimePadCipher from "./ciphers/otp"
 
 export default function CipherTool() {
   const [activeTab, setActiveTab] = useState("caesar")
@@ -16,6 +17,7 @@ export default function CipherTool() {
   const ciphers = [
     { id: "caesar", name: "Caesar", icon: "🔤", description: "Simple shift cipher" },
     { id: "vigenere", name: "Vigenère", icon: "🔑", description: "Polyalphabetic cipher" },
+    { id: "otp", name: "One Time Pad (OTP)", icon: "🅾", description: "Random Key cipher" },
     { id: "railfence", name: "Rail Fence", icon: "🚂", description: "Zigzag pattern cipher" },
     { id: "columnar", name: "Columnar", icon: "📊", description: "Column-based cipher" },
     { id: "hill", name: "Hill", icon: "🔢", description: "Matrix-based cipher" },
@@ -43,6 +45,9 @@ export default function CipherTool() {
           </TabsList>
           <TabsContent value="caesar" className="mt-0">
             <CaesarCipher />
+          </TabsContent>
+          <TabsContent value="otp" className="mt-0">
+            <OneTimePadCipher />
           </TabsContent>
           <TabsContent value="vigenere" className="mt-0">
             <VigenereCipher />
